@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Web App Layout</title>
+    <link rel="stylesheet" href="css.css" />
+</head>
+<body>
+    <header>
+        <h1 align="center">HELP BUDDY</h1>
+        <button id="toggleSidebar">☰</button>
+    </header>
+    <div class="container">
+        <aside id="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="webapp.html" onclick="loadContent('dashboard')">Home</a></li>
+                    <li><a href="#" onclick="loadContent('dashboard')">Dashboard</a></li>
+                    <li><a href="#" onclick="loadContent('profile')">Profile</a></li>
+                    <li><a href="#" onclick="loadContent('settings')">Settings</a></li>
+                    <li><a href="#" onclick="loadContent('contacts')">Contacts</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main id="mainContent">
+            <h2>Welcome</h2>
+            <p>Select an option from the sidebar or Use one of the option below</p>
+            <br><br><br>
+            <ul>
+	    <h1><li><a href="#" onclick="loadContent('dotask')">      DO TASK</a></li></h1>
+            <br><br><br> 	
+	    <h1><li><a href="#" onclick="loadContent('givetask')">      GIVE TASK</a></li></h1> 
+            </ul>
+	</main>
+    </div>
+
+    <footer>
+        <p>© 2025 My Web App</p>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+</html>
