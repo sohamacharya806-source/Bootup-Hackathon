@@ -4,7 +4,6 @@
     padding: 0;
     font-family: Arial, sans-serif;
 }
-
 body {
     display: flex;
     flex-direction: column;
@@ -51,13 +50,11 @@ aside nav ul li a {
 	text-decoration:none;
 	
 }
-aside nav ul li a:hover {
-	text-decoration:underline;
+aside nav ul li a:hover 
+{
 	background:black;
-	text-color:coral;
-	
+	color:coral;
 }
-
 main {
     flex: 1;
     padding: 1rem;
@@ -91,11 +88,10 @@ h1 a
 	padding:0.5rem;
 
 }
-h1 a:hover
-{
-	background:#5b7a82;
-	text-size:18px;
-	text-align:center;
-	transition:0.3s ease;
-	
+h1 a:hover {
+    background: #5b7a82;
+    font-size: 18px;
+    transform: scale(1.05);
+    color: #ffd700;
 }
+
